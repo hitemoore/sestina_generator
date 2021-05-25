@@ -10,7 +10,8 @@ To start, run the command:
 make run-notebook
 ```
 This will build the docker image, spin up a docker container and start the jupyter server. 
-Run:
+
+Then run:
 ```
 make get-url
 ```
