@@ -9,7 +9,13 @@ To start, run the command:
 ```
 make run-notebook
 ```
-Then open `generate_sestinas.ipynb` and run all the cells. 
+This will build the docker image, spin up a docker container and start the jupyter server. 
+Run:
+```
+make get-url
+```
+
+Open the URL in your browser, open up `generate_sestinas.ipynb` and run all cells.
 
 A sample output will look like this:
 ```
